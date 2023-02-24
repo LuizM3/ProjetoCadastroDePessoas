@@ -1,0 +1,36 @@
+html{
+    margin: 0px;
+    padding: 0px;
+
+    background-color: blueviolet;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    
+}  
+
+div{
+    position: relative;
+    top: -80px;
+    background-color: rgb(255, 60, 0);
+    padding: 0px 25px;
+
+    border: 3px black solid;
+
+    box-shadow: -4px 4px;
+
+    border-radius: 5px;
+}
