@@ -13,7 +13,7 @@ formulario.addEventListener('submit', function (event) {
 
     const formData = new FormData(formulario);
 
-    fetch('./cadastrarPessoas.php', {
+    fetch('cadastrarPessoas.php', {
         method: 'POST',
         body: formData
     })
