@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 html{
     margin: 0px;
     padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
 
     background-color: blueviolet;
 }
@@ -35,3 +39,21 @@ form{
     border-radius: 5px;
 }
 
+.button{
+    padding: 7px 10px;
+    background: unset;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+
+    transition: 0.3s all ease;
+}
+
+.button:hover{
+    background-color: blueviolet;
+}
+
+.input{
+    width: 220px;
+    border-radius: 20px;
+}
