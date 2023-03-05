@@ -1,6 +1,11 @@
 <?php
 
-include_once("conexao.php");
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "projetos";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 $nome = $_POST["inNome"];
 $idade = $_POST["inIdade"];
@@ -19,3 +24,4 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+?>
