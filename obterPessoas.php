@@ -1,6 +1,11 @@
 <?php
 
-include_once("conexao.php");
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "projetos";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Erro ao conectar ao banco de dados: " . $conn->connect_error);
@@ -19,3 +24,4 @@ if ($result->num_rows > 0) {
 echo json_encode($data);
 
 $conn->close();
+?>
